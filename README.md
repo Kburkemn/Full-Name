@@ -8,3 +8,13 @@ function firstAndLast(given, family) {
 var firstName = 'Kelly';
 var lastName = 'Burke';
 firstAndLast(firstName, lastName);
+
+
+//Use return: use the function to set the value of a variable
+
+function firstAndLast(given, family) {
+  return given + ' ' + family;
+	}
+var firstName = 'Kelly';
+var lastName = 'Burke';
+console.log(firstAndLast(firstName, lastName));
